@@ -1,0 +1,18 @@
+Ctrl+Alt+T  -- Acceso directo a la terminal
+cd  -- Cambiar entre directorios (carpetas)
+ls  -- Mostrar archivos/carpetas en el dir. actual
+clear  -- Limpiar pantalla
+TAB (tecla) -- Autocompletar
+cp  -- Copiar archivo/carpeta
+mkdir  -- Crear carpetas
+mv     -- Mover archivo /carpeta
+rm     -- Eliminar archivos /carpetas
+ifconfig  -- Configuración IP
+iwconfig  -- (wirelesss config)
+iwlist    -- Información de las redes inalámbricas vecinas
+nano      -- Editor de texto (Guardar: Ctrl+O, Salir Ctrl+X)
+less      -- Visor de texto (Salir Ctrl+Z)
+grep	  -- Filtrar resultados
+help      -- Mostrar ayuda
+apt-get   -- Instalar y actualizar paquetes. install (instalar/actualizar paquetes), update (act. repositorio), remove (remover paquetes)
+sudo      -- Adquirir permisos de superusuario
