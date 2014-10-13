@@ -14,8 +14,9 @@ conn, addr = s.accept() #Aceptar la conexion solicitada
 
 print 'Conectado con: ', addr
 
-while 1:
-	data = conn.recv(BUFFER_SIZE) #Recibir datos a traves del socket
-	if len(data) > 0:
+try:
+	while 1:
+		data = conn.recv(BUFFER_SIZE) #Recibir datos a traves del socket
 		print "Recibido: ", data
-conn.close()
+except KeyboardInterrupt:
+	conn.close()
