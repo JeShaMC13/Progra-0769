@@ -53,7 +53,8 @@ class temperaturaSerial(object):
         import pylab
         x = range(len(self.data))
         a = pylab.plot(x,self.data)
-        pylab.show()
+        #pylab.show()
+        pylab.savefig('miGrafica.png')
 
     def getTemp(self):
         """
@@ -70,7 +71,7 @@ class temperaturaSerial(object):
                   grafica temporal de las temperaturas leidas"""
         
 
-PORT = 'COM41'
+PORT = 'COM54'
 BAUD = 115200
 
 temperaturas = temperaturaSerial(PORT,BAUD,True)
