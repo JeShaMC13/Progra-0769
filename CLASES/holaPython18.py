@@ -3,19 +3,18 @@
 import serial, time
 
 
-
 global uart #Objeto para acceder al puerto serial
 
 def abrirSerial(baud = 115200):
     global uart
-    MAX_UART_RANGE = 50
+    MAX_UART_RANGE = 60
     i = 1
     while i <= MAX_UART_RANGE:
-        
+        time.sleep(0.1)
         try:
             print 'Intentando conectar en COM'+str(i)+'...'
             uart = serial.Serial(str('COM'+str(i)),baud)
-            time.sleep(0.1)
+            
         except serial.SerialException:
             i += 1
         else:
@@ -33,6 +32,7 @@ def abrirArchivo(fName = 'MiTexto.txt'):
         for line in archivo:
             data.append(line)
         return data
+
 
 def division(n1, n2):
     try:
