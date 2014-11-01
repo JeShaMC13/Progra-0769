@@ -1,0 +1,42 @@
+!Animales
+Lagarto
+Hipopotamo
+Avestruz
+Ornitorrinco
+Caballo
+Zopilote
+
+!Paises
+Guatemala
+Italia
+Eslovenia
+Cuba
+Alemania
+Costa Rica
+Republica Checa
+
+!Arboles
+Eucalipto
+Pino
+Cipres
+Araucaria
+Jacaranda
+Encino
+
+!Ciudades
+Praga
+Bremerhaven
+Dresden
+Trieste
+Postojna
+Frankfurt am Main
+Bruselas
+Helsinki
+
+!Computadoras
+DELL
+ASUS
+Alienware
+Toshiba
+Lenovo
+Sony
